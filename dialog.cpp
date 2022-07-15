@@ -16,7 +16,7 @@
 #include "debug.h"
 
 #define PROGRAM_NAME    "X2m2Cac"
-#define PROGRAM_VERSION "1.2"
+#define PROGRAM_VERSION "1.21"
 
 Dialog::Dialog(QWidget *parent) :
     QDialog(parent),

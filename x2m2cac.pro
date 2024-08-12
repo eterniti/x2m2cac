@@ -26,6 +26,8 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
     ../eternity_common/DBXV2/BdmFile.cpp \
     ../eternity_common/DBXV2/BpeFile.cpp \
+    ../eternity_common/DBXV2/IkdFile.cpp \
+    ../eternity_common/DBXV2/VlcFile.cpp \
         main.cpp \
         dialog.cpp \
     debug.cpp \
@@ -101,6 +103,8 @@ SOURCES += \
 HEADERS += \
     ../eternity_common/DBXV2/BdmFile.h \
     ../eternity_common/DBXV2/BpeFile.h \
+    ../eternity_common/DBXV2/IkdFile.h \
+    ../eternity_common/DBXV2/VlcFile.h \
         dialog.h \
     ../eternity_common/crypto/md5.h \
     ../eternity_common/crypto/rijndael.h \

@@ -95,6 +95,12 @@ void Dialog::GameRequirements()
         DPRINTF("InitCac failed.\n");
         exit(-1);
     }
+
+    if (!Xenoverse2::InitCostumeFile())
+    {
+        DPRINTF("InitCostumeFile failed.\n");
+        exit(-1);
+    }
 }
 
 bool Dialog::ProcessShutdown()

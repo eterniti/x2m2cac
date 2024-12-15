@@ -44,6 +44,8 @@ private:
                           bool body_components, bool keep_race, bool costumes, bool skills, bool stats,
                           bool &face_base_set, bool &face_forehead_set, bool &hair_set, bool &eyes_set,
                           bool &nose_set, bool &ears_set);
+
+    void ToggleDarkTheme(bool update_config);
 };
 
 #endif // DIALOG_H
